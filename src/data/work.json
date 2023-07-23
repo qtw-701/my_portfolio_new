@@ -1,0 +1,34 @@
+{
+  "work": [
+    {
+      "linkURL": "",
+      "imgURL": "images/ottogi_jQuery.png",
+      "title": "오뚜기 리디자인",
+      "info": "html, css, jQuery"
+    },
+    {
+      "linkURL": "",
+      "imgURL": "images/ottogi_js.png",
+      "title": "오뚜기 리디자인",
+      "info": "html, css, JavaScript"
+    },
+    {
+      "linkURL": "",
+      "imgURL": "images/chatting.png",
+      "title": "채팅하기",
+      "info": "html, css, JavaScript"
+    },
+    {
+      "linkURL": "",
+      "imgURL": "images/mini_game.png",
+      "title": "구름 걷어내기 미니게임",
+      "info": "html, css, JavaScript"
+    },
+    {
+      "linkURL": "",
+      "imgURL": "images/memo_ts.png",
+      "title": "메모지",
+      "info": "html, css, TypeScript"
+    }
+  ]
+}

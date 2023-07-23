@@ -1,0 +1,30 @@
+{
+  "about": [
+    {
+      "year": "2017",
+      "imgURL": "images/dima__logo.png",
+      "title": "동아방송예술대학교",
+      "description": "음향제작과 졸업(2017)"
+    },
+    {
+      "year": "2020",
+      "imgURL": "images/ez_logo.png",
+      "title": "이젠아카데미",
+      "description": "[과정평가형]UXUI 디지털 디자인 및 웹디자인기능사 자격증 취득과정 수료"
+    },
+    {
+      "year": "2020",
+      "title": "GTQ 및 웹디자인기능사 자격증 취득"
+    },
+    {
+      "year": "2022",
+      "title": "정보처리기사 자격증 취득"
+    },
+    {
+      "year": "2023",
+      "imgURL": "images/KNOU__logo.png",
+      "title": "한국방송통신대학교",
+      "description": "컴퓨터과학과 졸업(2023)"
+    }
+  ]
+}

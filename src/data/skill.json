@@ -1,0 +1,46 @@
+{
+  "skill": [
+    {
+      "imgURL": "/images/skills_html.png",
+      "title": "HTML5",
+      "description": "html5로 웹 페이지 구조를 적절하게 나눌 수 있습니다.",
+      "percentage": "90"
+    },
+    {
+      "imgURL": "/images/skills_css.png",
+      "title": "CSS3",
+      "description": "css3로 웹 페이지를 스타일링 할 수 있습니다.",
+      "percentage": "90"
+    },
+    {
+      "imgURL": "/images/skills_js.png",
+      "title": "JavaScript",
+      "description": "Javascript로 웹 페이지 동작을 구현할 수 있습니다.",
+      "percentage": "80"
+    },
+    {
+      "imgURL": "/images/skills_react.png",
+      "title": "React",
+      "description": "Javascript 문법을 토대로 React를 사용하여 컴포넌트 단위 함수형 프로그래밍을 할 수 있습니다.",
+      "percentage": "50"
+    },
+    {
+      "imgURL": "/images/skills_figma.png",
+      "title": "Figma",
+      "description": "Figma를 사용하여 간단한 프로토타입 제작을 할 수 있습니다.",
+      "percentage": "80"
+    },
+    {
+      "imgURL": "/images/skills_tailwind.png",
+      "title": "Tailwind",
+      "description": "Tailwind로 스타일링을 할 수 있습니다.",
+      "percentage": "80"
+    },
+    {
+      "imgURL": "/images/skills_postcss.png",
+      "title": "PostCSS",
+      "description": "PostCSS로 스타일링을 할 수 있습니다.",
+      "percentage": "80"
+    }
+  ]
+}

@@ -1,3 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'SpoqaHanSansNeo-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff')
+    format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,9 +17,71 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  @apply flex flex-col items-center;
+  @apply bg-grorange bg-gradient-to-b from-black via-grblue to-grorange text-white;
+}
+
+#root {
+  font-family: 'Josefin Sans', sans-serif;
+  @apply w-full;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.slide:hover > ul {
+  animation-play-state: paused;
+}
+
+.about-anim-in {
+  opacity: 1;
+  animation-duration: 1s;
+  animation-name: aboutAnimIn;
+}
+
+.about-anim-out {
+  opacity: 0;
+  animation-duration: 1s;
+  animation-name: aboutAnimOut;
+}
+
+@keyframes aboutAnimIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes aboutAnimOut {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+.circle-background {
+  fill: none;
+  stroke: #ddd;
+}
+
+.circle-progress {
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: stroke-dashoffset 1000ms ease-in;
 }
