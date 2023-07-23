@@ -1,6 +1,5 @@
 import React from 'react';
 import { AiFillGithub } from 'react-icons/ai';
-import { BsFillFileEarmarkPersonFill } from 'react-icons/bs';
 
 export default function ContactSection({ id, scroll, sectionClass }) {
   return (
@@ -16,8 +15,9 @@ export default function ContactSection({ id, scroll, sectionClass }) {
         <p className="text-4xl">qkrthwjd701@naver.com</p>
         <p className="text-4xl">qkrthwjd95@gmail.com</p>
         <div className="flex items-center gap-4">
-          <AiFillGithub className="text-7xl cursor-pointer hover:text-grorange transition" />
-          <BsFillFileEarmarkPersonFill className="text-7xl cursor-pointer hover:text-grorange transition" />
+          <a href="https://github.com/qtw-701">
+            <AiFillGithub className="text-7xl cursor-pointer hover:text-grorange transition" />
+          </a>
         </div>
       </div>
     </section>
