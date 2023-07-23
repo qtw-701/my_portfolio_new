@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Work({ imgURL, title, info, linkURL }) {
   return (
-    <a href="/">
+    <a href={linkURL}>
       <li className="w-80 text-center bg-slate-100 rounded-md text-black mx-5 py-5 group">
         <div className="overflow-hidden">
           <img

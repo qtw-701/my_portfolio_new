@@ -1,31 +1,31 @@
 {
   "work": [
     {
-      "linkURL": "",
+      "linkURL": "https://qtw-701.github.io/ottogi_redesign",
       "imgURL": "images/ottogi_jQuery.png",
       "title": "오뚜기 리디자인",
       "info": "html, css, jQuery"
     },
     {
-      "linkURL": "",
+      "linkURL": "https://qtw-701.github.io/ottogi_redesign_js",
       "imgURL": "images/ottogi_js.png",
       "title": "오뚜기 리디자인",
       "info": "html, css, JavaScript"
     },
     {
-      "linkURL": "",
+      "linkURL": "https://qtw-701.github.io/chatting",
       "imgURL": "images/chatting.png",
       "title": "채팅하기",
       "info": "html, css, JavaScript"
     },
     {
-      "linkURL": "",
+      "linkURL": "https://qtw-701.github.io/mini_game_cloud",
       "imgURL": "images/mini_game.png",
       "title": "구름 걷어내기 미니게임",
       "info": "html, css, JavaScript"
     },
     {
-      "linkURL": "",
+      "linkURL": "https://qtw-701.github.io/memo_board",
       "imgURL": "images/memo_ts.png",
       "title": "메모지",
       "info": "html, css, TypeScript"
