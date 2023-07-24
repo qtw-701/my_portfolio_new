@@ -24,6 +24,7 @@ export default function ProjectsSection({
                 title={data.title}
                 info={data.info}
                 imgURL={data.imgURL}
+                linkURL={data.linkURL}
               />
             ))}
         </ul>
