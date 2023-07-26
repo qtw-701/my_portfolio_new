@@ -33,8 +33,10 @@ export default function AboutSection({ id, scroll, sectionClass }) {
       </h1>
       <ul className="flex justify-around">
         {keywordData &&
-          keywordData.map((data) => (
-            <li className="p-4 mb-4 rounded-md text-2xl">#{data.text}</li>
+          keywordData.map((data, i) => (
+            <li key={i} className="p-4 mb-4 rounded-md text-2xl">
+              #{data.text}
+            </li>
           ))}
       </ul>
       <ul
