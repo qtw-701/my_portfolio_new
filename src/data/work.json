@@ -25,10 +25,10 @@
       "info": "html, css, JavaScript"
     },
     {
-      "linkURL": "https://qtw-701.github.io/memo_board",
-      "imgURL": "images/memo_ts.png",
+      "linkURL": "https://stupendous-cucurucho-7d26de.netlify.app/",
+      "imgURL": "images/memo_react.png",
       "title": "메모지",
-      "info": "html, css, TypeScript"
+      "info": "html, css, React"
     }
   ]
 }
